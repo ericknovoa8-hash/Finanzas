@@ -16,5 +16,6 @@ public class persona extends finanzas {
     @Override
     public void calcular(){
         double totalGastos = getIngresos() - (getGastosHogar() + getGastosPersonales());
-        System.out.println("tus ahorros son " + ahorros); 
+        System.out.println("tus ahorros son " + totalGastos);
+    }
 }
