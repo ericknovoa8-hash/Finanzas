@@ -43,7 +43,9 @@ public class finanzas {
         this.gastosPersonales = gastosPersonales;
     }
     public void calcular(){
+        double totalGastos = getIngresos() - (getGastosHogar() + getGastosPersonales());
         System.out.println("tus ingresos son ");
+
         
     }
-}
+} 
