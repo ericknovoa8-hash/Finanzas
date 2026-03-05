@@ -15,11 +15,17 @@ public class persona extends finanzas {
     }
     @Override
     public void calcular(){
+<<<<<<< HEAD
         double totalGastos = getIngresos() - (getGastosHogar() + getGastosPersonales());
 <<<<<<< HEAD
         System.out.println("tus ahorros son " + ahorros); 
 =======
         System.out.println("tus ahorros son " + totalGastos);
 >>>>>>> persona3
+=======
+        double totalGastos = getIngresos() - (getGastosHogar() + getGastosPersonales() + getAhorros());
+        double ahorroFinal = getAhorros() - totalGastos;
+        System.out.println("tus ahorros son " + ahorroFinal);
+>>>>>>> metodo
     }
 }

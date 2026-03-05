@@ -19,4 +19,8 @@ public class personas4 extends finanzas {
         System.out.println("tus gastos totales son " + totalGastos);
     
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> metodo
